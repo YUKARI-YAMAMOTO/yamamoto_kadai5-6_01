@@ -1,0 +1,492 @@
+@charset "uft-8";
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+    padding-left: 2.8%;
+    padding-right: 7.7%;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 10;
+}
+.header__nav ul {
+    display: flex;
+    gap: 77px;
+}
+.logo {
+    width: 227px;
+}
+.header__nav a {
+    color: #fff;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+        "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.header__nav-sp {
+    display: none;
+}
+body {
+    background-color: #e8d9bf;
+}
+.main-visual {
+    width: 100%;
+}
+.main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+.section-title {
+    margin: 0 auto;
+}
+#info {
+    margin-top: 104px;
+    text-align: center;
+    font-weight: normal;
+}
+.info-title {
+    font-size: 30px;
+    /* line-height: 3.9; */
+    margin-bottom: 47px;
+}
+#info h2 {
+    margin: 47px auto 55px;
+    font-size: 82px;
+    line-height: 1.17;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+}
+.info-text {
+    margin: 0 auto 93px;
+    font-size: 23px;
+    line-height: 1.65;
+    letter-spacing: 0.1em;
+}
+
+#about-us {
+    display: flex;
+    align-items: center;
+}
+.coffee {
+    width: 50%;
+}
+.coffee img {
+    border-radius: 0 0 83px 0;
+}
+.about-us-group {
+    width: 50%;
+}
+.about-us-title {
+    width: 272px;
+    height: 78px;
+    padding: 50px 70px;
+}
+.about-us-group h3 {
+    font-size: 44px;
+    line-height: 1.38;
+    font-weight: normal;
+    padding: 0px 70px;
+}
+.about-us-group p {
+    font-size: 16px;
+    line-height: 1.63;
+    font-weight: normal;
+    padding: 30px 0px 0px 70px;
+}
+#menu h2 {
+    width: 151px;
+    height: 78px;
+    margin-top: 100px;
+}
+.menu-group {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-group li {
+    width: 30%;
+}
+.menu-group img {
+    border-radius: 0 42px 0 0;
+}
+.menu-group h3 {
+    font-size: 38px;
+    line-height: 0.57;
+    color: #d30202;
+    padding-left: 13px;
+    font-weight: normal;
+}
+.menu-group p {
+    font-size: 17px;
+    line-height: 1.47;
+    margin-top: 20px;
+    font-weight: normal;
+}
+#gallery {
+    margin-top: 100px;
+}
+#gallery h2 {
+    width: 245px;
+    height: 78px;
+}
+.gallery-group {
+    margin-top: 20px;
+    display: flex;
+}
+.gallery-group li {
+    width: 20%;
+}
+
+#event {
+    margin-top: 70px;
+}
+
+#event h2 {
+    width: 173px;
+    height: 78px;
+}
+
+.event-back {
+    margin-top: 40px;
+    background: #fff;
+    border: solid 3px #4f260b;
+    padding: 40px 20px;
+}
+.event-group {
+    display: flex;
+    flex-direction: column;
+    max-width: 673px;
+    margin: 0 auto;
+}
+
+.event-group li {
+    display: flex;
+    font-size: 23px;
+    line-height: 1.95;
+    font-weight: normal;
+    gap: 50px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+/* .under-line {
+    text-decoration: underline; */
+.event-text {
+    display: inline-block;
+    border-bottom: 2px solid #4f260b;
+}
+
+#access {
+    margin-top: 80px;
+}
+#access h2 {
+    width: 213px;
+    height: 78px;
+}
+
+iframe {
+    margin-top: 50px;
+    width: 100%;
+    filter: grayscale(100%) invert(92%) contrast(83%);
+}
+footer {
+    background-color: #fff;
+}
+.footer {
+    padding: 83px 0;
+}
+.footer__inner {
+    display: flex;
+    justify-content: flex-start;
+    gap: 65px;
+}
+.footer-logo {
+    width: 226px;
+}
+.profile p {
+    font-size: 20px;
+    line-height: 1.95;
+    color: #000;
+}
+.copyright {
+    padding-top: 73px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 2.18;
+    color: #000;
+}
+.toTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 125px;
+}
+.slick-dots {
+    bottom: 15px;
+}
+.slick-dots li button:before,
+.slick-dots li.slick-active button:before {
+    color: #fff;
+}
+.slick-arrow {
+    padding: 85px;
+    font-size: 50px;
+}
+.slick-next {
+    right: -35px;
+}
+.slick-prev,
+.slick-next {
+    width: 40px;
+    height: 40px;
+    padding: 85px;
+}
+.slick-prev:before,
+.slick-next:before {
+    font-size: 40px;
+}
+
+/* スマホのときだけ改行 */
+.br-sp {
+    display: none;
+}
+
+@media screen and (max-width: 1100px) {
+    .hamburger {
+        display: block;
+        width: 33px;
+        height: 33px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 9999;
+        cursor: pointer;
+    }
+    .hamburger span {
+        position: absolute;
+        width: 33px;
+        height: 2px;
+        background-color: #fff;
+        top: 16px;
+        left: o;
+        transition: 0.4s;
+    }
+    .hamburger span::before,
+    .hamburger span::after {
+        position: absolute;
+        content: "";
+        width: 33px;
+        height: 2px;
+        background-color: #fff;
+        transition: 0.4s;
+    }
+    .hamburger span::before {
+        top: -15px;
+    }
+    .hamburger span::after {
+        bottom: -15px;
+    }
+    /* openがついたときにＸにする */
+    .open span {
+        background-color: transparent;
+    }
+    .open span::before {
+        transform: rotate(45deg);
+        top: 0;
+    }
+    .open span::after {
+        transform: rotate(-45deg);
+        bottom: 0;
+    }
+    .header__nav-sp {
+        position: absolute;
+        z-index: 9998;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #000000a5;
+    }
+    .header__nav-sp ul {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .header__nav-sp a {
+        color: #fff;
+        font-family: "游ゴシック体", YuGothic, "游ゴシック Medium",
+            "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    }
+    .header__nav {
+        display: none;
+    }
+    #info {
+        margin: 38px 0 54px;
+    }
+    .info-title {
+        margin-bottom: 0;
+    }
+    #info h2 {
+        font-size: 70px;
+    }
+    .about-us-text h3 {
+        font-size: 36px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .main {
+        padding: 0px;
+    }
+    .info-title {
+        font-size: 17px;
+        margin-bottom: 22px;
+    }
+    #info h2 {
+        margin: 22px auto 12px;
+        font-size: 38px;
+        line-height: 1.15;
+        font-weight: normal;
+        letter-spacing: 0.02em;
+    }
+    .info-text {
+        text-align: center;
+        margin: 0 17px 54px;
+        font-size: 16px;
+        line-height: 1.75;
+        letter-spacing: 0.1em;
+    }
+    .br-sp {
+        display: block;
+    }
+    .coffee {
+        width: 100%;
+    }
+    .coffee img {
+        border-radius: 0;
+    }
+    #about-us {
+        display: block;
+        align-items: center;
+        position: relative;
+    }
+    .coffee {
+        width: 100%;
+    }
+    .about-us-group {
+        width: 100%;
+    }
+    .about-us-title {
+        position: absolute;
+        top: -50px;
+        left: 107px;
+        width: 160px;
+        height: 45px;
+        padding: 0px;
+    }
+    .about-us-group h3 {
+        font-size: 36px;
+        line-height: 1.25;
+        padding: 32px 0px 0px 20px;
+    }
+    .about-us-group p {
+        font-size: 16px;
+        line-height: 1.75;
+        padding: 19px 20px 0px;
+    }
+    #menu h2 {
+        width: 88px;
+        height: 45px;
+    }
+    .menu-group {
+        flex-direction: column;
+        align-items: center;
+        margin: 17px 37px 80px;
+    }
+    .menu-group li {
+        width: 100%;
+        margin: 0 auto 60px;
+    }
+    .menu-group h3 {
+        font-size: 40px;
+        line-height: 0.55;
+    }
+    #gallery h2 {
+        width: 142px;
+        height: 45px;
+    }
+    #event {
+        padding: 0 20px;
+        margin-top: 15px;
+    }
+    #event h2 {
+        width: 100px;
+        height: 45px;
+    }
+    .event-back {
+        margin-top: 15px;
+    }
+    .event-group {
+        display: block;
+        flex-direction: row;
+        max-width: 335px;
+    }
+    .event-group li {
+        display: block;
+    }
+    .event-text {
+        width: 335px;
+        /* 文字をはみ出させるための記述 */
+        overflow: hidden;
+        white-space: nowrap;
+        /* 文字がはみ出た時に三点リーダーにする */
+        text-overflow: ellipsis;
+    }
+    #access {
+        margin-top: 26px;
+    }
+    #access h2 {
+        width: 124px;
+        height: 45px;
+    }
+    iframe {
+        margin-top: 5px;
+        height: 191px;
+    }
+    .footer {
+        padding: 40px 20px;
+    }
+    .footer__inner {
+        display: block;
+        position: relative;
+    }
+    .footer-logo {
+        padding-bottom: 28px;
+    }
+    .profile p {
+        font-size: 18px;
+        line-height: 1.72;
+    }
+    .copyright {
+        padding-top: 40px;
+    }
+    .toTop {
+        position: absolute;
+        top: -30px;
+        right: 11px;
+        width: 100px;
+    }
+}
+/* お疲れ様です
+ほかの方のFBも参考にさせていただきながら作成しました。
+ABOUT-USのタイトルのところがどうしても上手くいきませんでした。
+TOPにマイナスを付けないと上に来なかったのは、HTMLの書き方が間違っているのでしょうか。
+
+toTopのボタンは、デザインカンプの位置に合わせると、追従させたら微妙な位置に来てしまったので
+footerに固定にしましたが良かったでしょうか。
+
+ご確認お願いいたします。*/
