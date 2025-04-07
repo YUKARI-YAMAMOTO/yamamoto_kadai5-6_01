@@ -25,7 +25,8 @@
     font-weight: bold;
     font-size: 18px;
 }
-.header__nav-sp {
+.header__nav-sp,
+.hamburger {
     display: none;
 }
 body {
@@ -174,7 +175,7 @@ body {
 /* .under-line {
     text-decoration: underline; */
 .event-text {
-    display: inline-block;
+    display: block;
     border-bottom: 2px solid #4f260b;
 }
 
@@ -229,10 +230,6 @@ footer {
 .slick-dots li button:before,
 .slick-dots li.slick-active button:before {
     color: #fff;
-}
-.slick-arrow {
-    padding: 85px;
-    font-size: 50px;
 }
 .slick-next {
     right: -35px;
@@ -373,6 +370,7 @@ footer {
         display: block;
         align-items: center;
         position: relative;
+        padding-top: 50px;
     }
     .coffee {
         width: 100%;
@@ -382,8 +380,9 @@ footer {
     }
     .about-us-title {
         position: absolute;
-        top: -50px;
-        left: 107px;
+        top: 0px;
+        left: 50%;
+        transform: translateX(-50%);
         width: 160px;
         height: 45px;
         padding: 0px;
@@ -437,9 +436,9 @@ footer {
     }
     .event-group li {
         display: block;
+        font-size: 16px;
     }
     .event-text {
-        width: 335px;
         /* 文字をはみ出させるための記述 */
         overflow: hidden;
         white-space: nowrap;
@@ -475,9 +474,9 @@ footer {
         padding-top: 40px;
     }
     .toTop {
-        position: absolute;
-        top: -30px;
-        right: 11px;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
         width: 100px;
     }
 }
